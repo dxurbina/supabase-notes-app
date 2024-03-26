@@ -1,8 +1,5 @@
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
-import { createClient } from '@/utils/supabase/server';
-import { createPagesBrowserClient } from '@supabase/auth-helpers-nextjs'
-import { SessionContextProvider, Session } from '@supabase/auth-helpers-react'
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : "http://localhost:3000";
